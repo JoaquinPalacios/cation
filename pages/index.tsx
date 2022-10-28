@@ -2,6 +2,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import type { NextPage } from 'next';
 
+/**
+ * @author Joaquin Palacios.
+ * @name Home
+ * @description this contents the Home of the application.
+ */
+
 const Home: NextPage = () => {
     return (
         <div className='container'>
