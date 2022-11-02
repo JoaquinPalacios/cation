@@ -1,0 +1,24 @@
+.hero {
+    align-items: flex-end;
+    background-image: url('../public/images/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    height: 900px;
+    position: relative;
+    width: 100%;
+
+    .hero-container {
+        margin-bottom: 133px;
+        margin-left: 122px;
+
+        h1,
+        h3 {
+            color: var(--body--primary);
+        }
+        h3 {
+            font-weight: 500;
+        }
+    }
+}

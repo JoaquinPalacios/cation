@@ -5,7 +5,10 @@
 :root {
     --cl__black: #000000;
     --cl__blackPearl: #04182f;
-    --cl__guardsmanRed: #bb0000;
+    --cl__guardsManRed: #bb0000;
     --cl__maroon: #800000;
     --cl__white: #ffffff;
+
+    --body--primary: var(--cl__white);
+    --body--secondary: var(--cl__black);
 }

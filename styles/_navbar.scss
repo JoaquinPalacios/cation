@@ -1,0 +1,32 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    .container {
+        align-items: center;
+        display: flex;
+        height: 111px;
+        justify-content: space-between;
+        width: 100%;
+
+        .navbar-brand {
+            margin-left: 86px;
+            .logo {
+                display: block;
+            }
+        }
+        .navbar-menu {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 122px;
+            max-width: 411px;
+            width: 100%;
+
+            a {
+                color: var(--body--primary);
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
