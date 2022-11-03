@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Hero from '../components/Hero';
 import Image from 'next/image';
 import type { NextPage } from 'next';
+import ReachOut from '../components/ReachOut'
 
 /**
  * @author Joaquin Palacios.
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
 
             <main className='main'>
                 <Hero />
+                <ReachOut/>
             </main>
         </div>
     );
