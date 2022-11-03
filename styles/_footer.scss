@@ -1,0 +1,13 @@
+.footer {
+    background-color: var(--cl__blackPearl);
+    color: var(--body--secondary);
+    height: 277px;
+    width: 100%;
+
+    .footer-container {
+        color: var(--body--secondary);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
