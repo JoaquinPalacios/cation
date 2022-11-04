@@ -1,13 +1,44 @@
 .footer {
     background-color: var(--cl__blackPearl);
-    color: var(--body--secondary);
+    color: var(--body--primary);
+    font-family: 'EXO 2', sans-serif;
     height: 277px;
+    padding-top: 80px;
     width: 100%;
 
     .footer-container {
-        color: var(--body--secondary);
         display: flex;
         justify-content: space-between;
         width: 100%;
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            margin-top: 32px;
+            span {
+                padding-bottom: 16px;
+
+                svg {
+                    margin-right: 8px;
+                }
+                a {
+                    font-size: 14px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        button.btn-login {
+            background-color: transparent;
+            border: 1px solid var(--body--primary);
+            border-radius: 4px;
+            color: var(--body--primary);
+            font-size: 12px;
+            font-weight: 500;
+            margin-top: 32px;
+            max-height: 32px;
+            padding: 6px 24px;
+            text-transform: uppercase;
+        }
     }
 }
