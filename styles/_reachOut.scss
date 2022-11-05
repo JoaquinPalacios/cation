@@ -1,6 +1,6 @@
 .reachOut {
     align-items: flex-end;
-    background-image: url('../public/images/reachOut.jpg');
+    background-image: url('../public/images/reachOut.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -10,24 +10,34 @@
     width: 100%;
 
     .reachOut-container {
+       
+       
         margin-bottom: 450px;
-        margin-left: 500px;
-        margin-top: 280px;
+         margin-left: 500px;
+         margin-top: 280px;
         
+       
         h3 {
-            color: var(--body--primary);
-        }
-        h3 {
-            font-weight: 550;
+            
+            font-weight: 700;
+            color: white;
+            font-family: 'Exo 2';
+            font-size: 40 px;
+            line-height: 40 px;
+            text-align: center;
+
         }
         button {
+            
             background-color: transparent;
-            border-color: white;
-            border-radius: 5px;
+            border: 2px solid white;
+            border-radius: 4px;
             color: white;
-            font-size: 18px;
+            font-family: 'Exo 2';
+            font-size: 16px;
+            font-weight: 500;
             margin-left: 30px;
-            padding: 7px;
+            padding: 12px 16px;
         }
         
     }
