@@ -22,8 +22,8 @@ const Home: NextPage = () => {
 
             <main className='main'>
                 <Hero />
-                <ReachOut/>
                 <Services/>
+                <ReachOut/>
             </main>
         </div>
     );
