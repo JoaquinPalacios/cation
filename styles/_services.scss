@@ -1,0 +1,57 @@
+.services {
+    align-items: center;
+    background-image: url('../public/images/services.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    height: 745px;
+    position: relative;
+    width: 100%;
+
+    .services-container {
+        margin-left: 243px;
+        
+
+        
+       
+        h2 {
+            color: white;
+            font-size: 40px;
+            line-height: 40px;
+            font-weight: 700;
+            height: 57px;
+            margin-bottom: 42px;
+            
+       
+        }
+        p {
+            color: white;
+            font-family: 'Exo 2';
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 64px;
+            width: 315px;
+            height: 74px;
+            line-height: 24px;
+            top: 3015px;
+        }
+        button {
+            background-color: #BA0000;
+            border-color: transparent;
+            border-radius: 4px;
+            color: white;
+            height: 48px;
+            padding: 12px 16px;
+            width: 292px;
+
+            
+            
+            
+            
+            
+
+
+        }
+    }
+}
