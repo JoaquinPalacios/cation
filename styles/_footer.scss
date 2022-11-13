@@ -3,7 +3,7 @@
     color: var(--body--primary);
     font-family: 'EXO 2', sans-serif;
     height: 277px;
-    padding-top: 80px;
+    padding: 80px 192px 0 121px;
     width: 100%;
 
     .footer-container {
@@ -33,12 +33,25 @@
             border: 1px solid var(--body--primary);
             border-radius: 4px;
             color: var(--body--primary);
+            cursor: pointer;
             font-size: 12px;
             font-weight: 500;
             margin-top: 32px;
             max-height: 32px;
             padding: 6px 24px;
             text-transform: uppercase;
+        }
+
+        .footer-social {
+            margin-top: 32px;
+
+            a.face-icon {
+                margin-right: 16px;
+            }
+            svg {
+                height: 32px;
+                width: 32px;
+            }
         }
     }
 }

@@ -19,9 +19,9 @@ const Navbar: React.FC<NavbarProps> = () => {
                         </a>
                     </div>
                     <div id='navbarBasicExample' className='navbar-menu'>
-                        <Link href='/'>Quiénes somos</Link>
-                        <Link href='/about'>Productos</Link>
-                        <Link href='/contact'>Contacto</Link>
+                        <Link href='/About'>Quiénes somos</Link>
+                        <Link href='/Products'>Productos</Link>
+                        <Link href='/Contact'>Contacto</Link>
                     </div>
                 </div>
             </nav>
