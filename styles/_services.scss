@@ -1,23 +1,33 @@
 .services {
     align-items: center;
-    background-image: url('../public/images/services.png');
     background-repeat: no-repeat;
     border-radius:50% ;
     background-size: cover;
     background-position: center top;
     display: flex;
-    border-radius:50% ;
     height: 745px;
     width: 100%;
 
+    
+
     .services-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;        
         margin-left: 243px;    
-      
-       
+        
+        .image{
+            background-image: url('../public/images/services.png');
+            border-radius:50%;
+            height: 736.52px;
+            margin-left: 569px;
+            margin-top: 237.48px;
+            position: absolute;
+            width: 736.52px;
+        }
+        
+               
         h2 {
-            color: white;
+            color:#04182F;
             font-size: 40px;
             line-height: 40px;
             font-weight: 700;
@@ -27,7 +37,7 @@
        
         }
         p {
-            color: white;
+            color: #04182F;
             font-size: 16px;
             font-weight: 400;
             margin-bottom: 64px;
@@ -43,9 +53,12 @@
             color: white;
             height: 48px;
             padding: 12px 16px;
-            width: 100px;   
-            margin: left;  
+            width: fit-content;   
+            margin: auto;  
             
         }
     }
+    
+    
 }
+
